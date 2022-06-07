@@ -59,7 +59,7 @@ elif no =='99':
         print(update)
         print(r+'['+C+'*'+r+'] Mohon Tunggu ...')
         os.system('cd ..;rm -rf docomo')
-        os.system('cd ..;git clone https://github.com/F124NZ/sms > /dev/null 2>&1')
+        os.system('cd ..;git clone https://github.com/F124NZ/spamsms > /dev/null 2>&1')
         exit(r+"["+R+now('%X')+r+"] Update Selesai..")
     except:
         exit(r+"["+R+now('%X')+r+"] Your tools is the latest version")
